@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 260px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin: 0;
+}
